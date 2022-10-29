@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/truck logo.png">
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  
+    <!-- fontawesome icons cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/signup.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    
+    <section data-aos="fade-down">
+        <div class="loginSection">
+                <div class="row align-items-center">
+                     <div class="col-12 col-md-7">
+                        <div class="px-4">
+                            <div class="loginSectionInner">
+                               <div class="backHome">
+                                 <i class="fa-solid fa-chevron-left"></i>
+                                 <a href="index.html">Back to Home page</a>
+                               </div>
+                                <h2 class="mainHeading mt-3">
+                                    Welcome back to LuckyTruck
+                                </h2>
+                                <p class="subHeading">
+                                    Let's continue with your trucking insurance coverage!
+                                </p><hr>
+                                <form action="#" method="get" class="pt-3" id="loginForm">
+                                    
+                                   <div class="mb-3">
+                                     <input class="customInput" type="email" name="loginEmail" id="loginEmail" placeholder="Email">
+                                   </div>
+
+                                    <div class="passField">
+                                        <div>
+                                            <input type="password" class="customInput" name="loginPassword" id="loginPassword" placeholder="Password">
+                                        </div>
+                                        <div class="showHidePass">
+                                            <i class="fas fa-eye-slash" id="eye"></i>
+                                        </div>
+                                    </div>
+                                    <input class="customBtn fullwidthInput" type="submit" value="CONTINUE">
+                                </form>
+
+                                <div class="forgotPass text-center my-3 pt-2">
+                                    <a href="forgotPassword.html">Forgot your password</a>
+                                </div>
+
+                                <div class="passDiviver text-center my-2 pt-1">
+                                    <p>Or</p>
+                                </div>
+
+                                <div class="py-4">
+                                    <a class="signUpWithGoogle" href="#">
+                                        <div class="googleIcon mr-2">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M23.745 12.27C23.745 11.48 23.675 10.73 23.555 10H12.255V14.51H18.725C18.435 15.99 17.585 17.24 16.325 18.09V21.09H20.185C22.445 19 23.745 15.92 23.745 12.27Z" fill="#4285F4"></path><path d="M12.255 24C15.495 24 18.205 22.92 20.185 21.09L16.325 18.09C15.245 18.81 13.875 19.25 12.255 19.25C9.12501 19.25 6.47501 17.14 5.52501 14.29H1.54501V17.38C3.51501 21.3 7.56501 24 12.255 24Z" fill="#34A853"></path><path d="M5.52501 14.2901C5.27501 13.5701 5.145 12.8001 5.145 12.0001C5.145 11.2001 5.28501 10.4301 5.52501 9.71012V6.62012H1.545C0.725004 8.24012 0.255005 10.0601 0.255005 12.0001C0.255005 13.9401 0.725004 15.7601 1.545 17.3801L5.52501 14.2901Z" fill="#FBBC05"></path><path d="M12.255 4.75C14.025 4.75 15.605 5.36 16.855 6.55L20.275 3.13C18.205 1.19 15.495 0 12.255 0C7.56501 0 3.51501 2.7 1.54501 6.62L5.52501 9.71C6.47501 6.86 9.12501 4.75 12.255 4.75Z" fill="#EA4335"></path></svg>
+                                        </div>
+                                        <h5> Login with Google </h5>
+                                    </a>
+                                </div>
+
+                                <div class="alreadyAccount text-center">
+                                    <p>Don't have an account</p>
+                                    <a href="sign-up.html">CREATE AN ACCOUNT</a>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                     <a href="index.html">
+                        <div class="col-12 col-md-5 text-center loginSectionImg"></div>
+                     </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+     <!-- jqery cdn link -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+      <!-- Bootstrap js -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+      <!-- password show hide jquery code -->
+      <script src="assets/js/password-show-hide.js"></script>
+
+    <!-- form validation jquery -->
+     <script src="assets/js/jquery.validate.js"></script>
+     <script src="assets/js/login-validate.js"></script>
+
+</body>
+</html>
